@@ -1,0 +1,131 @@
+
+body{
+    margin:0px;
+}
+
+.container{
+    width:1170px;
+    margin:0 auto;
+     
+    
+    
+
+}
+
+header
+{
+    width:100%;
+    height:88px;
+    background-color:#FFFFFF;
+    margin:0px;
+    box-sizing:border-box;
+    position: fixed;
+     z-index: 1;
+}
+
+#logo
+{
+    width:160px;
+    height:52px;
+    
+    margin-top:19px;
+    margin-bottom: 17px;
+     
+
+    
+}
+
+.navigationbar
+{
+    float:right;
+    margin-right:15px;
+    height:88px;
+    box-sizing:border-box;
+    padding-top:35px;
+    padding-bottom:34px; 
+    
+
+    
+     
+    
+}
+
+.navigationbar a{
+    text-decoration: none;
+    color:#261D4B;
+    font-family: Montserrat;
+    padding-right:15px;
+    padding-left:15px;
+    padding-top:35px;
+    padding-bottom:34px; 
+
+    
+
+    font-size:16px;
+    text-align: center;
+
+     
+    
+}
+
+.navigationbar a:hover
+{
+    color:#FFFFFF;
+    background-color: #4DAEB2;
+    width:80px;
+    
+
+    height:88px;
+}
+
+.navigationbar nav{
+    height:88px;
+}
+
+#logintxt
+{
+    color:#4DAEB2;
+}
+
+.secondblock
+{
+    width:100%;
+    background-color: #FAF9FF;
+    padding:90px;
+    height:576px;
+    clear:both;
+
+}
+
+.secondblock .container
+{
+    clear:both;
+    position:relative;
+    
+
+}
+
+.secondblock .container img
+{   
+    height:552px;
+    width:432px;
+    position: absolute;
+    top:23px;
+    right:0%;
+    
+    
+    
+}
+.secondblock .container p{
+    font-family: 'Rubik', sans-serif;
+    
+    font-size:52px; 
+    width:564px;
+
+}
+.content_div
+{
+    margin-right:64px;
+}
+
+
