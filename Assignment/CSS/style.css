@@ -25,7 +25,7 @@ header
     box-shadow: 0px 1px 0px #F1EFFD;
 }
 
-#logo
+header .container img
 {
     width:160px;
     height:52px;
@@ -42,12 +42,19 @@ header
     float:right;
     margin-right:15px;
     height:88px;
-    box-sizing:border-box;
-    padding-top:35px;
-    padding-bottom:34px; 
+    box-sizing:border-box; 
+   
+}
+.navigationbar nav{
+    height:88px;
+    
+    
+    box-sizing: border-box;
 }
 
+
 .navigationbar a{
+    float:left;
     text-decoration: none;
     color:#261D4B;
     font-family: Montserrat;
@@ -63,14 +70,11 @@ header
 {
     color:#FFFFFF;
     background-color: #4DAEB2;
-    width:80px;
-    height:88px;
+   
     
 }
 
-.navigationbar nav{
-    height:88px;
-}
+
 
 #logintxt
 {
@@ -190,7 +194,7 @@ h4
 
 }
 
-#content2
+.content_div2 p
 {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -202,6 +206,7 @@ h4
 {
     text-align: center;
     display:inline-block;
+    position: relative;
 }
 
 
@@ -250,12 +255,25 @@ h4
 
 .content3{
     border:#DCDCDC 1px solid;
-    
-    
-    
+padding: 30px;
+position: relative;
+    }
 
 
-}
+
+.content3::before
+{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-top: 1px #dcdcdc solid;
+    border-left: 1px #DCDCDC solid;
+    left:224px;
+    content:'';
+    transform: rotate(45deg);
+    margin-top:-56px;
+    background:#FFFFFF
+}    
 
 .contents
 {
@@ -263,13 +281,12 @@ h4
     font-family: 'Montserrat', sans-serif;
     float: left;
     width:444.34px;
-    padding-top:20px;
+
     text-align: left;
+}
 
-
-
-
-
+.contents p{
+    margin-top:0px;
 }
 
 .third_block .container.content3 img{
@@ -277,6 +294,16 @@ h4
     float:right;
     
     
+}
+
+
+hr{
+    position: absolute;
+    width: 477px;
+    left:143px;
+    top:73px;
+    z-index: -1;
+    color:#C7E3E3;
 }
 
 
@@ -288,6 +315,25 @@ h4
     text-align: center;
     margin-top:52px;
     background-color: #F7F7FB;
+    position: relative;
+    padding-bottom:66px;
+}
+
+.fourth_block::after
+{
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-bottom: 1px #dcdcdc solid;
+    border-right: 1px #DCDCDC solid;
+    left:965px;
+    content:'';
+    transform: rotate(45deg);
+    margin-top:39px;
+    background: #f7f7f7;
+    box-shadow: #8D87A8;
+
 }
 
 .fourth_block h4
@@ -427,6 +473,7 @@ footer
 .icons
 {
     float: right;
+    margin: -10px;
     
 }
 
