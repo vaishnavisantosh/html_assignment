@@ -129,7 +129,8 @@ header nav a:last-child:hover
     font-size:52px;
     color:#261D4B;
     text-align: right;
-    padding-top:96px; 
+    padding-top:96px;
+    font-weight: lighter;
     
 
 }
@@ -138,7 +139,7 @@ header nav a:last-child:hover
     font-family: 'Montserrat', sans-serif;
     font-size:20px;
     color: #726F7A;
-    
+font-weight: lighter;
     text-align: right;
     
 }
@@ -163,6 +164,7 @@ header nav a:last-child:hover
     font-family: 'Montserrat', sans-serif;
     padding-top:15px;
     text-transform: none;
+    
 
 }
 
@@ -183,7 +185,9 @@ h4
     font-family: 'Rubik', sans-serif;
     color:#261D4B;
     font-size: 40px;
-    text-align: center;  
+    text-align: center;
+    font-weight: lighter;
+    
 
 }
 
@@ -192,6 +196,7 @@ h4
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     color:#726F7A;
+    font-weight: lighter;
 
 }
 
@@ -394,6 +399,7 @@ hr{
     
 }
 
+
 .combine
 {
     text-align: center;
@@ -406,7 +412,7 @@ hr{
     font-size: 12px;
     
     margin-right: 12px;
-    margin-top:5px;
+    margin-top:3px;
 
 
 
@@ -419,6 +425,15 @@ hr{
     float: left;
     
 }
+
+.c2{
+    float: left;
+    padding: 0px 5px;
+    
+    border-right :1px #7ECED2 solid;
+    border-left: 1px #7ECED2 solid;
+}
+
 
 
 
