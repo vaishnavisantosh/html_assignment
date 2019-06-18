@@ -1,7 +1,7 @@
 
 body
 {
-    margin:0px;
+    margin:0px auto;
 }
 
 .container
@@ -19,7 +19,7 @@ header
     box-sizing:border-box;
     position: fixed;
     z-index: 1;
-    opacity: 100%;
+    
     box-shadow: 0px 1px 0px #F1EFFD;
 }
 
@@ -106,11 +106,10 @@ header nav a:last-child:hover
 
 .secondblock .container img
 {   
-    height:552px;
-    width:432px;
+    
     position: absolute;
     top:23px;
-    right:0%;
+    right:0px;
     float: right;    
     
     
@@ -189,6 +188,11 @@ h4
     font-weight: lighter;
     
 
+}
+
+.third_block .content_div2 h4{
+    margin-top:30.33px;
+    margin-bottom: 0px;
 }
 
 .content_div2 p
