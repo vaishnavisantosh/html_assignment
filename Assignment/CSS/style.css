@@ -1,15 +1,13 @@
 
-body{
+body
+{
     margin:0px;
 }
 
-.container{
+.container
+{
     width:1170px;
     margin:0 auto;
-     
-    
-    
-
 }
 
 header
@@ -29,12 +27,9 @@ header .container img
 {
     width:160px;
     height:52px;
-    
     margin-top:19px;
     margin-bottom: 17px;
      
-
-    
 }
 
 .navigationbar
@@ -45,15 +40,16 @@ header .container img
     box-sizing:border-box; 
    
 }
-.navigationbar nav{
+
+.navigationbar nav
+{
     height:88px;
-    
-    
     box-sizing: border-box;
 }
 
 
-.navigationbar a{
+.navigationbar a
+{
     float:left;
     text-decoration: none;
     color:#261D4B;
@@ -70,13 +66,11 @@ header .container img
 {
     color:#FFFFFF;
     background-color: #4DAEB2;
-   
-    
 }
 
 
 
-#logintxt
+header nav a:last-child
 {
     color:#4DAEB2;
 }
@@ -130,24 +124,23 @@ header nav a:last-child:hover
     margin-right:64px;
     width:60%;
 }
-#content1_div{
+.secondblock .container .content_div h2{
     font-family: 'Rubik', sans-serif;
     font-size:52px;
     color:#261D4B;
     text-align: right;
-    
     padding-top:96px; 
     
 
 }
-.content_div2
+.secondblock .container .content_div p
 {
     font-family: 'Montserrat', sans-serif;
     font-size:20px;
     color: #726F7A;
     
     text-align: right;
-    padding-top:24px;
+    
 }
 
 .button
@@ -459,14 +452,8 @@ footer
     padding-top:30px;
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
-    
     width: 100%;
-    
-    
-    
-
-    
-
+    margin-top:31px;
 }
 
 
