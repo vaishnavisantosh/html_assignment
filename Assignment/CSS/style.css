@@ -1,8 +1,12 @@
 
+*
+{
+    box-sizing: border-box;
+}
 body
 {
     margin:0px;
-    box-sizing:border-box;
+    
 
 }
 
@@ -10,8 +14,11 @@ body
 {
     width:1170px;
     margin:0px auto;
-    box-sizing:border-box;
+    
 }
+
+
+
 
 header
 {
@@ -45,12 +52,7 @@ header .container img
    
 }
 
-.navigationbar nav
-{
-    clear:both;
-    
-    
-}
+
 
 
 .navigationbar a
@@ -61,12 +63,12 @@ header .container img
     font-family: 'Montserrat', sans-serif;
     padding-right:15px;
     padding-left:15px;
-    padding-top:34px;
-    padding-bottom:34px; 
+    padding-top:32px;
+    padding-bottom:30px; 
     font-size: 16px;
     text-align: center;
     line-height: 26px;
-    height: 20px;
+    
     
     
 }
@@ -96,9 +98,10 @@ header nav a:first-child
     width:100%;
     background-color: #FAF9FF;
     padding-top:88px;
-    height:493px;
+
     box-shadow: 0px 4px 10px #DED9F9;
-    text-align: center;  
+    text-align: center;
+    padding-bottom:70px;  
     
 
 }
@@ -166,7 +169,7 @@ font-weight: lighter;
     border-radius: 5px;
     display:inline-block;
     text-align: center;
-    box-sizing: border-box;
+    
     
 }
 
