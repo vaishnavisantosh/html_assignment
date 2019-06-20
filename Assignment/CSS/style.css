@@ -425,7 +425,7 @@ h2
     transform: rotate(45deg);
     bottom:-26px;
     background: #f7f7f7;
-    box-shadow:1px #8D87A8 solid;
+    box-shadow:1px 1px 0px 0px #8D87A8 solid;
     margin-left:-40px;
 
 }
