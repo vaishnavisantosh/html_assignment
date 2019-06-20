@@ -314,11 +314,11 @@ h2
 
 .four_images span
 {
-    width:60%;
+    width:80%;
     border-top: 1px #C7E3E3 solid ;
     position: absolute;
     z-index: -1;
-    left: 20%;
+    left: 11%;
     margin-top:83px;
 
 }
